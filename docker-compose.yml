@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  patrones_estructurales:
+    build: .
+    volumes:
+      - ./app:/app
+    stdin_open: true
+    tty: true
